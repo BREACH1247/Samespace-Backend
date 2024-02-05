@@ -5,13 +5,13 @@
 -Develop a TODO API using Golang and ScyllaDB that supports basic CRUD operations and
 includes pagination functionality for the list endpoint.
 Requirements
-● Set up a Golang project and integrate ScyllaDB as the database for storing TODO items.
+- Set up a Golang project and integrate ScyllaDB as the database for storing TODO items.
 Ensure that items in the database are stored user-wise.
-● Implement endpoints for creating, reading, updating, and deleting TODO items for a
+- Implement endpoints for creating, reading, updating, and deleting TODO items for a
 single user at a time. Each TODO item should have at least the following properties: id,
 user_id, title, description, status, created, updated.
-● Implement a paginated list endpoint to retrieve TODO items.
-● Provide support for filtering based on TODO item status (e.g., pending, completed).
+- Implement a paginated list endpoint to retrieve TODO items.
+- Provide support for filtering based on TODO item status (e.g., pending, completed).
 
 
 ## 🎯 | Sample Queries
@@ -24,7 +24,7 @@ Create a new todo item.
 -   **Method:** POST
 -   **Body:**
     
-    jsonCopy code
+    json
     
     `{
       "id": "123e4567-e89b-12d3-a456-426614174001",
